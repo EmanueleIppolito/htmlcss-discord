@@ -5,27 +5,85 @@
 }
 
 header {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.523);
     min-height: 50px;
     border: solid;
-    padding-top: 8px;
+    display: flex;
+    justify-content: center;
 }
 
 .container-header {
     background-color: white;
     min-height: 30px;
     align-items: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
  
 }
 
 .banner {
-    background-color: orange;
+    background-color: rgba(255, 166, 0, 0.522);
     min-height: 100px;
-
+    display: flex;
+    justify-content: center;
 
 }
 
 .container-banner{
-    background-color: blueviolet;
+    background-color: rgba(137, 43, 226, 0.393);
     min-height: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-width: 100px;
+}
+
+.container{
+    background-color: brown;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-reverse{
+    background-color: cornflowerblue;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row-reverse;
+}
+
+.last-div{
+    background-color: chartreuse;
+    min-height: 150px;
+}
+
+footer{
+    background-color: darkgoldenrod;
+    min-height: 200px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.link-utili{
+    display: flex;
+    background-color: rgb(133, 193, 31);
+    max-height: 100px;
+    align-items: center;
+}
+
+.login{
+    background-color: rgb(241, 11, 11);
+    min-height: 80px;
+    display: flex;
+    align-self: flex-end;
+
 }
