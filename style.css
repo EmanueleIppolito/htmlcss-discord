@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    min-height: 50px;
+    border: solid;
+    padding-top: 8px;
+}
+
+.container-header {
+    background-color: white;
+    min-height: 30px;
+    align-items: center;
+ 
+}
+
+.banner {
+    background-color: orange;
+    min-height: 100px;
+
+
+}
+
+.container-banner{
+    background-color: blueviolet;
+    min-height: 80px;
+}
