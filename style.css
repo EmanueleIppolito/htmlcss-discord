@@ -19,7 +19,7 @@ header {
     justify-content: center;
     align-items: center;
     display: flex;
- 
+    
 }
 
 .banner {
@@ -70,14 +70,29 @@ footer{
     align-content: center;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
 
 }
-
+/*
 .link-utili{
     display: flex;
     background-color: rgb(133, 193, 31);
     max-height: 100px;
     align-items: center;
+}
+*/
+.final-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-self: center;
+}
+
+.colonna-1 {
+    flex-grow: 2;
+    background-color: bisque;
+    justify-self: center;
 }
 
 .login{
@@ -85,5 +100,10 @@ footer{
     min-height: 80px;
     display: flex;
     align-self: flex-end;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    margin-top: 90px;
 
 }
